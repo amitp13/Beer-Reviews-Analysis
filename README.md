@@ -6,10 +6,11 @@ Since beer is such an integral part of our world and one of my favorite things h
 
 # About The Dataset
 
-This dataset consists of beer reviews from Beeradvocate. The data span a period of more than 10 years, including all ~1.5 million reviews up to November 2011. Each review includes ratings in terms of five "aspects": appearance, aroma, palate, taste, and overall impression. Reviews include product and user information, followed by each of these five ratings, and a plaintext review. We also have reviews from ratebeer.
+This dataset consists of beer reviews from Beeradvocate. The data span a period of more than 10 years, including all ~1.5 million reviews up to November 2011. Each review includes ratings in terms of five "aspects": appearance, aroma, palate, taste, and overall impression. Reviews include product and user information, followed by each of these five ratings, and a plaintext review. We also have reviews from ratebeer. The Dataset can be found on this link https://www.kaggle.com/rdoume/beerreviews.
 
 # Dataset Format
-The dataset was downloaded in a CSV format but transformed in SQL Database. with 3 tables
-1. Beer Reviews : This table is a raw illustration of the csv file without any changes.
+The dataset was downloaded in a CSV format but transformed in SQLite Database for ease of use. It was transformed into 3 tables by using simple queries. 
+
+1. Beer Reviews : This table is the raw csv file without any changes in a table format.
 2. Beer Master : This contains the average of all the rating combined for each beer along with the brewery information where the beer was produced
 3. Brewery : The Brewery table consists of information on all the breweries in the database.
